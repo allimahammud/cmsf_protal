@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB2D78B42C16021600CE22E3 /* cmsf.insaf.prod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cmsf.insaf.prod.entitlements; sourceTree = "<group>"; };
 		AB5D978B2C15F3D40017A627 /* cmsf.insaf.prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmsf.insaf.prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5D978E2C15F3D40017A627 /* cmsf_insaf_prodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cmsf_insaf_prodApp.swift; sourceTree = "<group>"; };
 		AB5D97902C15F3D40017A627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		AB5D978D2C15F3D40017A627 /* cmsf.insaf.prod */ = {
 			isa = PBXGroup;
 			children = (
+				AB2D78B42C16021600CE22E3 /* cmsf.insaf.prod.entitlements */,
 				AB5D978E2C15F3D40017A627 /* cmsf_insaf_prodApp.swift */,
 				AB5D97902C15F3D40017A627 /* ContentView.swift */,
 				AB5D97922C15F3D60017A627 /* Assets.xcassets */,
@@ -419,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cmsf.insaf.prod/cmsf.insaf.prod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cmsf.insaf.prod/Preview Content\"";
@@ -448,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cmsf.insaf.prod/cmsf.insaf.prod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cmsf.insaf.prod/Preview Content\"";
